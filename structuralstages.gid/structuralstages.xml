@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- -*- coding: utf-8;-*- -->
+<Infoproblemtype version="1.0">
+  <Program>
+    <Name>Structural Multistage</Name>
+    <Version>0.0.1</Version>
+    <ExecutableVersion></ExecutableVersion>
+    <CheckMinimumGiDVersion>16.0.0d</CheckMinimumGiDVersion>
+    <CustomLibAutomatic>1</CustomLibAutomatic>
+    <CustomLibNativeGroups>1</CustomLibNativeGroups>
+    <ImageFileBrowser>images/ImageFileBrowser.gif</ImageFileBrowser>
+    
+
+  </Program>
+</Infoproblemtype>
