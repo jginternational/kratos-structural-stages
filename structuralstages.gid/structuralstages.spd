@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- -*- coding: utf-8; mode: SGML -*- -->
-<Kratos_data version='9.2.1'>
+<structural_stages_data version='9.2.1'>
 	<style show_menubutton_about='0' show_menubutton_search='1'></style>
 	<groups/>
 	<units></units>
 	<!-- Fill this fields to automatically active an App without the init window -->
-	<container n="stages" pn="Stages">
-		<blockdata n="stage" name="Stage1" sequence='1' editable_name='unique'>
+	<container n="stages" pn="Stages" tree_state="active,open,selected">
+		<blockdata n="stage" name="Stage1" sequence='1' editable_name='unique' tree_state="open">
 			<value n="active" pn="Active" v="true" values="true,false" />
 		</blockdata>
 	</container>
-</Kratos_data>
+	<container n="global_parameters" pn="Global parameters">
+		<value n="property_1" pn="Property 1" v="value_1" values="value_1,value_2" dict="value_1,Value 1,value_2,Value 2"/>
+		<value n="property_2" pn="Property 2" v="0.64" string_is="double"/>
+	</container>
+</structural_stages_data>
