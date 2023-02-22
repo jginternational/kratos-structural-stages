@@ -7,6 +7,12 @@ proc GiD_Event_InitProblemtype { dir } {
 }
 
 proc Structural::Event_InitProblemtype { dir } {
+    GidUtils::RemoveGUI
+    # GidUtils::DisableToolbar "AllToolbars"
+    # GidUtils::CloseWindow ALL
+    after 2000 {GidUtils::EnableToolbar "Command line"}
+    after 2000 {GidUtils::EnableToolbar "Standard bar"}
+    W "hola"
     GidUtils::OpenWindow CUSTOMLIB
 }
 
