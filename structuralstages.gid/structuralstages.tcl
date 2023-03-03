@@ -10,8 +10,10 @@ proc Structural::Event_InitProblemtype { dir } {
     GidUtils::RemoveGUI
     # GidUtils::DisableToolbar "AllToolbars"
     # GidUtils::CloseWindow ALL
-    after 2000 {GidUtils::EnableToolbar "Command line"}
-    after 2000 {GidUtils::EnableToolbar "Standard bar"}
+    GidUtils::EnableToolbar "Command line"
+    GidUtils::EnableToolbar "Standard bar"
+    GidUtils::EnableToolbar "Up menu"
+    GidUtils::EnableToolbar "Status & Information"
     W "hola"
     GidUtils::OpenWindow CUSTOMLIB
 }
